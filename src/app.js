@@ -3,6 +3,7 @@ import db from './utils/database.js'
 import User from './models/users.model.js'
 import 'dotenv/config'
 
+
 User
 // variable de entorno llamada PORT
 const PORT = process.env.PORT ?? 8000
