@@ -11,4 +11,6 @@ const db = new Sequelize({
   dialectOptions: {ssl: {required: true, rejectUnauthorized: false}},
 })
 
+// para local comentamos el dialect options
+
 export default db
